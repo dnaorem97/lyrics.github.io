@@ -1,0 +1,137 @@
+/* AboutUs.css */
+.about-us {
+  font-family: 'Arial, sans-serif';
+  padding: 8px 20px;
+  line-height: 1.6;
+  text-align: center;
+  
+
+}
+
+.about-us h1, .about-us h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about-intro, .our-story, .our-mission{
+  /* margin-bottom: 2rem; */
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.about-us p {
+  font-size: larger;
+  text-align: center;
+  /* color: #666; */
+  padding: 10px;
+  
+}
+.about-us{
+  .about-intro,.our-story,.our-mission{
+      p{
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: justify;
+  padding: 24px;
+
+      }
+  }
+}
+
+.about-us ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-us ul li {
+  margin-bottom: 1.5rem;
+}
+
+.about-us ul li h3 {
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.about-us ul li p {
+  width: 100%;
+  color: #555;
+}
+
+.contact-us p {
+  margin: 0.5rem 0;
+}
+
+strong {
+  color: #2c3e50;
+}
+.why-choose-us{
+  width: 80%;
+  margin: 0 auto;
+  
+  
+  
+}
+.why-choose-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 54px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.why-choose-item{
+width: 450px;
+height: 676px;
+border: 2px solid transparent;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius: 10px;
+padding: 20px;
+display: flex;
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+}
+.reason-img{
+  width: 400px;
+  height: 400px;
+}
+
+/*  
+
+.about-intro, .our-mission, .our-story, .why-choose-us, .services, .testimonials, .contact-us {
+  margin-bottom: 3rem;
+}
+
+  */
+  .about-testimonials{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  }
+.about-testimonial {
+  background-color: #fff;
+  padding: 1rem;
+  /* border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 1.5rem;
+  
+}
+
+.about-testimonial p {
+  margin: 0.5rem 0;
+}
+
+.about-testimonial em {
+  color: #888;
+}
