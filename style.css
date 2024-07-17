@@ -146,6 +146,7 @@ form {
 }
 main h1 {
   padding: 6px;
+  text-align: center;
 }
 
 form input {
