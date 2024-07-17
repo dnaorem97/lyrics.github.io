@@ -87,3 +87,14 @@ body {
     .btn:hover {
       background-color: #0056b3;
     }
+
+    @media (max-width: 768px) {
+     .contact-me-container{
+      display: flex;
+      flex-direction: column;
+
+     }
+     .contact-description{
+      padding: 0 4px;
+     }
+    }
