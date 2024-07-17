@@ -97,4 +97,8 @@ body {
      .contact-description{
       padding: 0 4px;
      }
+      .contactme-item{
+      display: flex;
+      flex-direction: column;
+     }
     }
