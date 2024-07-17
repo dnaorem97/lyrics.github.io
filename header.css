@@ -5,16 +5,21 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    
+  
   }
   
-  header h1 {
-    margin: 0 0 2rem;
+  header h2 a{
+    margin: 0px;
+    text-decoration: none;
+    color: aliceblue;
+   
   }
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 0 2rem;
   }
   .nav-container ul {
     display: flex;
